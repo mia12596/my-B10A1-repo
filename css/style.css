@@ -54,3 +54,22 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* why development */
+.hero2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero3,
+.hero4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 50px;
+}
+
+.imgp {
+    width: 260px;
+}
