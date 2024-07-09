@@ -59,18 +59,42 @@ main {
 .hero2 {
     margin-top: 50px;
     text-align: center;
+    width: 946px;
+
 }
 
 .hero3,
 .hero4,
 .hero5 {
+
+    width: 946px;
+    height: 300px;
     display: flex;
-    text-align: center;
+    padding: 48px;
     justify-content: center;
-    gap: 190px;
-    margin-top: 50px;
+    gap: 15px;
+
 }
 
 .imgp {
-    width: 260px;
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.learn {
+    border: 1px solid rgb(13, 19, 33);
+    padding: 8px;
+    color: rgb(13, 19, 33);
+}
+
+button a {
+    text-decoration: none;
 }
