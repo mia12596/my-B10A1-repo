@@ -167,3 +167,18 @@ form input[type="submit"] {
     color: black;
     border: none;
 }
+
+.final-title {
+    background: rgba(13, 19, 33, 0.03);
+    width: 1440px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.ploat {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
