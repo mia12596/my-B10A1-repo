@@ -62,7 +62,8 @@ main {
 }
 
 .hero3,
-.hero4 {
+.hero4,
+.hero5 {
     display: flex;
     text-align: center;
     justify-content: center;
