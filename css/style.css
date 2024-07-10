@@ -36,9 +36,39 @@ body {
 .banner {
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
-    height: 600px;
+    height: 652px;
+    width: 1440px;
 
 
+}
+
+.hope-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    color: rgb(13, 19, 33);
+}
+
+.hope-describe {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+}
+
+.why-title {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+}
+
+.why-describe {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .hero-btn {
@@ -46,7 +76,9 @@ body {
     background: rgb(13, 19, 33);
     border-radius: 8px;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 24px 21px 24px 21px;
+    width: 208px;
+    font-size: 20px;
 }
 
 /* main */
@@ -59,7 +91,7 @@ main {
 
 /* why development */
 .hero2 {
-    margin-top: 50px;
+    margin-top: 90px;
     text-align: center;
     width: 1150px;
 
@@ -74,15 +106,33 @@ main {
     display: flex;
     padding: 48px;
     justify-content: center;
-    gap: 25px;
+
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    color: rgba(13, 19, 33, 0.7);
 
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+.hero4 {
+    gap: 80px;
+}
+
+.universal {
+    width: 477px;
+    height: 220px;
 }
 
 .imgp {
     width: 259.56px;
     height: 217.01px;
+    padding-left: 200px;
+
+
+
 }
 
 .title {
@@ -93,10 +143,27 @@ main {
     font-size: 18px;
 }
 
+.universall {
+    width: 477px;
+    height: 220px;
+    padding-left: 180px;
+}
+
+.imgpp {
+    width: 240px;
+    height: 240px;
+}
+
 .learn {
     border: 1px solid rgb(13, 19, 33);
     padding: 8px;
     color: rgb(13, 19, 33);
+    margin: 32px 0px;
+    color: rgb(13, 19, 33);
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
 }
 
 button a {
@@ -108,10 +175,29 @@ button a {
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+    margin: 10px 0px;
 }
 
 .inspa {
     text-align: center;
+    margin-top: 80px;
+
+}
+
+.inspa-title {
+    text-align: center;
+    color: rgb(13, 19, 33);
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.inspa-describe {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* current part */
@@ -123,7 +209,7 @@ button a {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    gap: 20px;
+    gap: 5px;
 
 }
 
@@ -131,27 +217,48 @@ button a {
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     border-radius: 16px;
+    margin: 0px 24px;
+    width: 364px;
+    height: 300px;
 }
 
 .about-target2 {
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
     border-radius: 16px;
+    margin: 0px 24px;
+    width: 364px;
+    height: 300px;
 }
 
 .about-target3 {
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
     border-radius: 16px;
+    margin: 0px 24px;
+    width: 364px;
+    height: 300px;
 }
 
 .section-title {
     text-align: center;
     font-size: 32px;
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+    padding-left: 100px;
 }
 
 .dexcribe-title {
     text-align: center;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .current-section {
@@ -174,9 +281,10 @@ button a {
 
 .support-image {
     background-image: url(../assets/handshake.jpg);
-    height: 300px;
+    height: 314px;
     background-position: center;
     border-radius: 16px;
+    margin-top: 100px;
 }
 
 .top-support {
@@ -188,6 +296,7 @@ form input[type="text"] {
     border-radius: 5px;
     width: 548px;
     border: none;
+    margin-top: 20px;
 }
 
 form input[type="submit"] {
@@ -197,6 +306,7 @@ form input[type="submit"] {
     border: none;
     font-weight: 600;
     font-size: 15px;
+    margin-top: 20px;
 }
 
 .final-title {
@@ -205,6 +315,7 @@ form input[type="submit"] {
     height: 100px;
     margin-top: 25px;
     border-radius: 16px;
+
 }
 
 .ploat {
@@ -216,6 +327,16 @@ form input[type="submit"] {
     padding-left: 40px;
     padding-top: 30px;
     margin-top: 90px;
+    color: rgb(13, 19, 33);
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+}
+
+.img-ploat a {
+    gap: 5px;
 }
 
 .about-target a,
@@ -231,6 +352,9 @@ button a {
 .footer-title {
     color: rgb(255, 255, 255);
     font-size: 32px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .footer-describe {
