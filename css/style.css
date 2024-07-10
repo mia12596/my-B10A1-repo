@@ -124,6 +124,8 @@ main {
 .universal {
     width: 477px;
     height: 220px;
+    padding-left: 60px;
+    padding-right: 100px;
 }
 
 .imgp {
@@ -144,9 +146,10 @@ main {
 }
 
 .universall {
-    width: 477px;
+    width: 390px;
     height: 220px;
-    padding-left: 180px;
+    padding-left: 60px;
+    padding-right: 100px;
 }
 
 .imgpp {
